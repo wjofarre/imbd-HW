@@ -1,4 +1,5 @@
-# imbd-HW
+``` 
+imbd-HW
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jun 16 22:26:43 2015
@@ -53,6 +54,8 @@ avg_1 = movies[movies.duration<120].sum()/525
 
 # 8
 movies.plot(kind='scatter', x='duration', y='star_rating', alpha=.3)
+```
+
 
 movies[movies.genre].value_counts()
 movies.groupby('genre').duration.agg('mean')
